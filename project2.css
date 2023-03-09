@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   margin: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: black;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first{
+    display: flex;
+    gap:50px;
+}
+button{
+    background-color:blueviolet;
+    height: auto;
+    border:none;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+main {
+    display: flex;
+    margin-top: 60px;
+}
+main div p{
+    text-transform:capitalize;
+    color: rgb(94, 94, 206);
+    font-size: 60px;
+   }
+main div p span{
+    color: blueviolet;
+}
+
+.button{
+    margin-top: 40px;
+    /* text-align: center; */
+}
+
