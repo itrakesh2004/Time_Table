@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color:black;
+    padding: 3px;
+    font-size: 15px;
+    color: white;
+   }
+.first{
+    display: flex;
+    gap: 30px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(234, 117, 247);
+    padding: 5px;
+    border-radius: 5px;
+}
+main{
+    text-align: center;
+    padding-top:90px;
+    color: white;
+}
+main p{
+   
+    font-size: 60px;
+    }
+ .button{
+   padding-top: 40px;
+}
